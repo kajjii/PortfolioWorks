@@ -1,0 +1,45 @@
+.service_block {
+    height: auto; 
+    margin-left: -5vw; 
+    margin-right: -5vw; 
+    padding: 0 5vw; 
+    background: var(--service-background);
+    align-content: center;
+    &.mobile {
+        height: auto;
+    }
+}
+
+.tag {
+    display: inline-flex; 
+    font-size: 20px; 
+    font-weight: 500; 
+    background: var(--main-elements-color);
+    color: var(--tag-text-color);
+    margin: 10px 10px 0 0;
+    padding: 8px 22px 8px 8px; 
+    border-radius: 24px;
+    &.mobile {
+        font-size: 4.5vw;
+        margin-bottom: 10px;
+    }
+}
+
+.icon {
+    margin: -12px -5px;
+    padding: 0;
+    position: relative;
+    background: none;
+    scale: 0.6; 
+    height: 50px;
+    
+    &.mobile {
+        height: 45px;
+    }
+}
+.light {
+    content: url(./icons/check.svg);
+}
+.dark {
+    content: url(./icons/check_dark.svg);
+}

@@ -1,0 +1,38 @@
+.btn {
+    position: relative;
+    height: 55px;
+    width: 165px;
+    border-radius: 55px;
+    background: #4824ff;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    margin-right: 2%;
+    cursor: pointer;
+    outline: none;
+    &.mobile {
+        margin-right: 0;
+        margin-top: 5vw;
+        height: 16vw;
+        width: 60vw;
+    }
+    &:hover {
+        filter: drop-shadow(0 0 50px #4824ff40);
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 30px;
+        background: #ffffffbd;
+        filter: blur(2px);
+        transition: 1.5s;
+        transform: rotate(-20deg) translateX(-50px) translateY(-200px);
+    }
+    &:hover:before {
+        transform: rotate(-20deg) translateX(200px);
+    }
+}

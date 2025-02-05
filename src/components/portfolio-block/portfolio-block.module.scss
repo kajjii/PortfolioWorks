@@ -1,0 +1,77 @@
+.portfolio_block { 
+    height: auto;
+}
+
+.wrapper { 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    &.mobile {
+        margin-top: 5vw;
+    }
+}
+
+.main_title { 
+    font-size: 56px; 
+    font-family: "Prata"; 
+    font-weight: 500;
+    background: linear-gradient(to right, var(--main-text-color), #4824ff);
+    color: transparent; 
+    background-clip: text;
+    &.mobile {
+        font-size: 28px;
+        margin-left: 3vw;
+        z-index: 1;
+    }
+}
+
+.gradient_partone { 
+    position: absolute;
+    background: linear-gradient(to right, transparent, var(--main-background));
+    color: transparent;
+    height: 70px;
+    width: 200px;
+    &.mobile {
+        height: 10vw;
+        width: 18vw;
+    }
+}
+.gradient_parttwo { 
+    position: absolute;
+    background: linear-gradient(to left, transparent, var(--main-background));
+    color: transparent;
+    height: 70px;
+    width: 200px;
+    &.mobile {
+        height: 10vw;
+        width: 18vw;
+    }
+}
+
+.arrow { 
+    margin: 0 20px;
+    padding: 0;
+    width: 75px;
+    filter: drop-shadow(20px 20px 15px #4824ff25);
+    &.mobile {
+        margin: 0 10px 4px 8px;
+        width: 45px;
+    }
+}
+
+.title_border { 
+    font-size: 56px;
+    font-family: "Prata";
+    font-weight: 500;
+    color: var(--main-background);
+    margin: 10px 0;
+    text-shadow: 
+        -1px -1px 0 var(--title-border-color),
+         1px -1px 0 var(--title-border-color),
+        -1px  1px 0 var(--title-border-color),
+         1px  1px 0 var(--title-border-color);
+    &.mobile {
+        font-size: 28px;
+    }
+}
+
