@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import AllGallery from '../allGallery/AllGallery'
-import Landings from '../allGallery/Landings';
+import { AllGallery } from '../allGallery/AllGallery'
+import {Landings} from '../allGallery/Landings';
 import { useResize } from '../resize/resize';
 import cn from 'classnames';
 import s from './category.module.scss'
@@ -14,7 +14,7 @@ export const Category = () => {
     const renderComponent = () => {
         switch (selectedCategory) {
             case 'All':
-                return <AllGallery/>;
+                return <AllGallery />;
             case 'Landings':
                 return <Landings />
             default:

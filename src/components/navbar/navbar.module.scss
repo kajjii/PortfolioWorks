@@ -65,19 +65,19 @@ header {
         border: 1px solid var(--main-elements-color);
         cursor: pointer;
         &.dark {
-            content: url(./icons/menu_dark.svg);
+            content: url(/icons/menu_dark.svg);
         }
         &.light {
-            content: url(./icons/menu.svg);
+            content: url(/icons/menu.svg);
         }
     }
 }
 
 .tg_light {
-    content: url(./icons/tg_light.svg)
+    content: url(/icons/tg_light.svg)
 }
 .tg_dark {
-    content: url(./icons/tg_dark.svg)
+    content: url(/icons/tg_dark.svg)
 }
 
 .switch {
@@ -114,10 +114,10 @@ header {
         height: 12.45vw;
     }
     &.light {
-        content: url(./icons/sun.svg);
+        content: url(/icons/sun.svg);
     }
     &.dark {
-        content: url(./icons/moon.svg);
+        content: url(/icons/moon.svg);
     }
 }
 
@@ -144,7 +144,7 @@ header {
         width: 70px; 
         height: 70px;
         background-size: 100% 100%;
-        background-image: url(./icons/arrow.svg);
+        background-image: url(/icons/arrow.svg);
     }
 }
 

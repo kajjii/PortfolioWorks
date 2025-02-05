@@ -92,7 +92,7 @@ export const Navbar = ({theme, setTheme}) => {
                     style={{ transform: isDarkTheme ? 'translateX(8.6vw)' : 'translateX(0)'}}/>
             </div>
             <div className={s.menu__btns_mobile}>
-                <a href="https://t.me/telegram" target='_blank'
+                <a href="https://t.me/dmitrymuratov" target='_blank'
                     className={cn(s.icon, s.mobile, { [s.tg_light]: theme === 'light', [s.tg_dark]: theme === 'dark' })}
                 />
                 <a onClick={handleOpenModalMenu} 

@@ -1,7 +1,7 @@
-import Carousel from '../carousel/Carousel'
+import {Carousel} from '../carousel/Carousel'
 import {carouselData} from '../../data/carousel'
 
-const AllGalery = () => {
+export const AllGallery = () => {
     
     return (
         // style={{pointerEvents: isPortrait ? '' : 'none'}}
@@ -11,5 +11,3 @@ const AllGalery = () => {
         </div>
     );
 };
-
-export default AllGalery;

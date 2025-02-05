@@ -3,7 +3,7 @@ import { useResize } from "../resize/resize";
 import s from  './carousel.module.scss'
 
 
-const Carousel = ({ direction, data }) => {
+export const Carousel = ({ direction, data }) => {
     const isPortrait = useResize()
 
     const carouselRef = useRef(null);
@@ -63,4 +63,3 @@ const Carousel = ({ direction, data }) => {
         </div>
     )
 }
-export default Carousel

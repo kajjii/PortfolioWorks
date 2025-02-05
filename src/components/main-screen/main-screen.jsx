@@ -23,13 +23,13 @@ export const MainScreen = () => {
                     </div>
         
                     <div className={s.face_block}>
-                        {/* <img src="/images/face.png" draggable="false" alt="face" /> */}
+                        {/* <img src="/images/face3.jpg" draggable="false" alt="face" /> */}
                     </div>
                 </div>
                 ) : (
                 <div className={cn(s.main_screen, s.mobile)}>
                     <div className={cn(s.face_block, s.mobile)}>
-                        {/* <img src="/images/face.png" draggable="false" alt="face" /> */}
+                        {/* <img src="/images/face3.jpg" draggable="false" alt="face" /> */}
                     </div>
                 <div className={cn(s.aboutme_block, s.mobile)}>
                     <h1>Веб-разработчик <span className={s.title}>Dmitry Muratov</span></h1>

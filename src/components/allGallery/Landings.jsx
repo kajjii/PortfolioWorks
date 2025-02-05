@@ -2,7 +2,7 @@ import { useState } from "react";
 import { carouselData } from "../../data/carousel";
 import './landings.scss'
 
-const Banners = () => {
+export const Landings = () => {
 
     const [visibleRows, setVisibleRows] = useState(2)
     const [selectedImage, setSelectedImage] = useState(null)
@@ -55,5 +55,3 @@ const Banners = () => {
         </div>
     );
 };
-
-export default Banners;
